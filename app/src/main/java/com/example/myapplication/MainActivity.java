@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,13 +14,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = (Button)findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
+    }
+    public void unipeace(View view){
+        Intent intent = new Intent(MainActivity.this, unipeaceActivity.class);
+        startActivity(intent);
     }
 
+    public void mukhyang(View view){
+        //Intent intent = new Intent(MainActivity.this, )
+    }
+
+    public void comuse(View view){
+        Intent intent = new Intent(MainAcitivity.this, )
+    }
 }

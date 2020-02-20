@@ -7,17 +7,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:padding="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:fontFamily="@font/hanarm"
@@ -33,40 +33,21 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:textSize="18sp"
-                android:text="ㆍ나비 (역사토론 동아리)" />
+                android:onClick="unipeace"
+                android:text="ㆍ유니피스 (평화운동 동아리)"
+                android:textSize="18sp" />
 
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:background="#00000000"
-                android:fontFamily="@font/hanarm"
-                android:gravity="center|left"
-                android:textSize="18sp"
-                android:text="ㆍ아카데미 (학술토론 동아리)" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:background="#00000000"
-                android:fontFamily="@font/hanarm"
-                android:gravity="center|left"
-                android:textSize="18sp"
-                android:text="ㆍ유니피스 (평화운동 동아리)" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:fontFamily="@font/hanarm"
@@ -76,14 +57,37 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:onClick="mukhyang"
+                android:text="ㆍ묵향 (서예 동아리)"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:onClick="go"
+                android:text="ㆍ바둑지기 (바둑 동아리)"
+                android:textSize="18sp" />
+
+            <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:textSize="18sp"
-                android:text="ㆍ묵향회 (서예 동아리)" />
+                android:onClick="plamodel"
+                android:text="ㆍ재작 (프라모델 동아리)"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button5"
@@ -92,8 +96,26 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:textSize="18sp"
-                android:text="ㆍ바둑지기 (바둑 동아리)" />
+                android:onClick="apc"
+                android:text="ㆍA.P.C (사진 동아리)"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/hanarm"
+                android:text="봉사 분과"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button6"
@@ -102,70 +124,437 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:textSize="18sp"
-                android:text="ㆍ재작 (프라모델 동아리)" />
+                android:onClick="goodnewscorps"
+                android:text="ㆍ굿뉴스코 (해외봉사 동아리)"
+                android:textSize="18sp" />
 
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:onClick="leo"
+                android:text="ㆍ레오 (라이온스협회 산하동아리)"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:onClick="newmind"
+                android:text="ㆍ새마음 (사회봉사 동아리)"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:onClick="hanul"
+                android:text="ㆍ한울회 (청년연맹 봉사 동아리)"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:onClick="rcy"
+
+                android:text="ㆍR.C.Y (적십자)"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:onClick="zip"
+                android:text="ㆍZ.I.P (건축봉사 동아리)"
+                android:textSize="18sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/hanarm"
+                android:text="종교 분과"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:onClick="katollic"
+                android:text="ㆍ가톨릭 학생회"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ불교 학생회" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ인터콥" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ증산도" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍC.C.C (기독교 동아리)" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍI.V.F" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍS.F.C (기독교 동아리)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="체육 1 분과" />
+                android:layout_height="40dp"
+                android:fontFamily="@font/hanarm"
+                android:text="체육 1분과"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ강유 (풋살 동아리)" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ데굴데굴 (볼링 동아리)" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ아띠FC (축구 동아리)" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ오래오 (배드민턴 동아리)" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ타이푼 (야구 동아리)" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍCUTC (테니스 동아리)" />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="체육 2 분과" />
+                android:layout_height="40dp"
+                android:fontFamily="@font/hanarm"
+                android:text="체육 2분과"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ산악부 (등산 동아리)" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ선랑 (태권도 동아리)" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍCNUSS (스킨스쿠버 동아리)" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="종교 분과" />
+                android:layout_height="40dp"
+                android:fontFamily="@font/hanarm"
+                android:text="문화 1분과"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ극예술연구회 (연극 동아리)" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ한마당 (사물놀이 동아리)" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍCYPRUS (밴드 동아리)" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍE-MASTERS (혼성댄스 동아리)" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍKINO (영화 동아리)" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="문화 1 분과" />
-        </LinearLayout>
+                android:layout_height="40dp"
+                android:fontFamily="@font/hanarm"
+                android:text="문화 2분과"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:textStyle="bold" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView9"
+            <Button
+                android:id="@+id/button33"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="문화 2 분과" />
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ땅사랑 (음악연구 동아리)" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ미미 (고전기타 동아리)" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:onClick="comuse"
+                android:text="ㆍ코뮤즈(전자음악 동아리)"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ피닉스 (응원단)" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ피타 (여성댄스 동아리)" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍShe'll (여성밴드 동아리)" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center|left"
+                android:textSize="18sp"
+                android:text="ㆍ4Dabeats (힙합 동아리)" />
+
         </LinearLayout>
+
+
 
     </LinearLayout>
 
