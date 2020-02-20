@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/feelgi"
+            android:paddingBottom="5dp"
+            android:text="코뮤즈"
+            android:textColor="#713CC9"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/hanarm"
+            android:textSize="15dp"
+            android:text="#전자음악동아리 #곽민주 #귀엽다"
+            android:paddingBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/comuse1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/feelgi"
+                android:paddingBottom="5dp"
+                android:textSize="20dp"
+                android:text="소개"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center"
+                android:text="코뮤즈는 ~~ 이러한 동아리입니다! \n귀여운 곽민주가 있고 자기만한 베이스를 띵가띵가"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/feelgi"
+                android:paddingBottom="10dp"
+                android:textSize="20dp"
+                android:text="활동 내용"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center"
+                android:text="코뮤즈는 하루에 몇시간, 일주일에 몇시간 정도 연습을 하며 \n정기공연으로 이러쿵 저러쿵 합니다! \n팀마다 다양한 장르로 구성되어있고 친목과 음악을 동시에 즐길수 있는 행복한 시간 ~~~얄루"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/feelgi"
+                android:paddingBottom="5dp"
+                android:textSize="20dp"
+                android:text="지원 자격"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center"
+                android:text="음악을 좋아한다면 누구나 가능! \n곽민주 같은 귀여미는 언제나 환영입니다 껄껄"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/feelgi"
+                android:paddingBottom="10dp"
+                android:textSize="20dp"
+                android:text="모집 기간과 방법"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center"
+                android:text="음악을 좋아한다면 누구나 가능! \n곽민주 같은 귀여미는 언제나 환영입니다 껄껄"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/feelgi"
+                android:paddingBottom="10dp"
+                android:textSize="20dp"
+                android:text="동아리방 위치"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center"
+                android:text="아마도 스탠드????"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/feelgi"
+                android:paddingBottom="10dp"
+                android:textSize="20dp"
+                android:text="온라인 공간"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center"
+                android:text="FaceBook ~~\nInstagram ~~~\nKakaotalk ~~~"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/feelgi"
+                android:paddingBottom="10dp"
+                android:textSize="20dp"
+                android:text="Q n A"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center"
+                android:text="Q. 곽민주 남자친구있나요? \nA. 네. 있습니다."
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center"
+                android:text="Q. 왜 코뮤즈에 들어가야 하나요? \nA.코뮤즈에 들어오면 어쩌구"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/feelgi"
+                android:paddingBottom="10dp"
+                android:textSize="20dp"
+                android:text="마지막 한마디"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hanarm"
+                android:gravity="center"
+                android:text="21학번 신입생 여러분 \n다들 코 뮤 즈 하세요 !!!!"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

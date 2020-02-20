@@ -15,8 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+
     public void unipeace(View view){
-        Intent intent = new Intent(MainActivity.this, unipeaceActivity.class);
+        Intent intent = new Intent(this, unipeaceActivity.class);
         startActivity(intent);
     }
 
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void comuse(View view){
-        Intent intent = new Intent(MainAcitivity.this, )
+        Intent intent = new Intent(this, comuseActivity.class);
+        startActivity(intent);
     }
 }
