@@ -16,15 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void unipeace(View view){
-        Intent intent = new Intent(this, unipeaceActivity.class);
-        startActivity(intent);
-    }
-
-    public void mukhyang(View view){
-        //Intent intent = new Intent(MainActivity.this, )
-    }
-
     public void comuse(View view){
         Intent intent = new Intent(this, comuseActivity.class);
         startActivity(intent);

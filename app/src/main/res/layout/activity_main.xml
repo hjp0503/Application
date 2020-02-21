@@ -33,7 +33,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="unipeace"
                 android:text="ㆍ유니피스 (평화운동 동아리)"
                 android:textSize="18sp" />
 
@@ -63,7 +62,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="mukhyang"
                 android:text="ㆍ묵향 (서예 동아리)"
                 android:textSize="18sp" />
 
@@ -74,7 +72,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="go"
                 android:text="ㆍ바둑지기 (바둑 동아리)"
                 android:textSize="18sp" />
 
@@ -85,7 +82,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="plamodel"
                 android:text="ㆍ재작 (프라모델 동아리)"
                 android:textSize="18sp" />
 
@@ -96,7 +92,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="apc"
                 android:text="ㆍA.P.C (사진 동아리)"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -124,7 +119,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="goodnewscorps"
                 android:text="ㆍ굿뉴스코 (해외봉사 동아리)"
                 android:textSize="18sp" />
 
@@ -135,7 +129,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="leo"
                 android:text="ㆍ레오 (라이온스협회 산하동아리)"
                 android:textSize="18sp" />
 
@@ -146,7 +139,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="newmind"
                 android:text="ㆍ새마음 (사회봉사 동아리)"
                 android:textSize="18sp" />
 
@@ -157,7 +149,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="hanul"
                 android:text="ㆍ한울회 (청년연맹 봉사 동아리)"
                 android:textSize="18sp" />
 
@@ -168,7 +159,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="rcy"
 
                 android:text="ㆍR.C.Y (적십자)"
                 android:textSize="18sp" />
@@ -180,7 +170,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="zip"
                 android:text="ㆍZ.I.P (건축봉사 동아리)"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -208,7 +197,6 @@
                 android:background="#00000000"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center|left"
-                android:onClick="katollic"
                 android:text="ㆍ가톨릭 학생회"
                 android:textSize="18sp" />
 

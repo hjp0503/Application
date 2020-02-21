@@ -31,7 +31,7 @@
             android:fontFamily="@font/hanarm"
             android:textSize="15dp"
             android:text="#전자음악동아리 #곽민주 #귀엽다"
-            android:paddingBottom="10dp"/>
+            android:paddingBottom="5dp"/>
 
         <ImageView
             android:id="@+id/imageView"
@@ -151,7 +151,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/hanarm"
                 android:gravity="center"
-                android:text="음악을 좋아한다면 누구나 가능! \n곽민주 같은 귀여미는 언제나 환영입니다 껄껄"
+                android:text="상시모집! \n동아리방에 와서 신청서를 제출하거나 집부에게 웅앵"
                 android:textSize="15sp" />
 
         </LinearLayout>
